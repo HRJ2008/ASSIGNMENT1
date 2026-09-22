@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Personal Portfolio Website | Web Dev I Lab Assignment 1 | index.html -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>HARSH RAJ JHA</h1>
+        <p>Web Developer | Student | Problem Solver</p>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+                Hello! I am HARSH RAJ JHA, a student who is learning web development
+                and enjoys building useful and creative digital projects.
+            </p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <img
+                src="https://i.ibb.co/GvG4MQLP/IMG-20251207-091224.jpg"
+                alt="Harsh Raj Jha"
+                width="180"
+                height="180"
+                style="width:180px; height:180px; object-fit:cover; border-radius:8px;"
+            >
+
+            <p>
+                I am passionate about technology, programming, and continuous learning.
+                I am currently improving my skills in HTML, CSS, JavaScript, and problem solving.
+            </p>
+
+            <p>
+                My goal is to become a skilled software developer and create projects
+                that solve real-world problems.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <ul>
+                <li>
+                    <article>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            A one-page website that presents my profile, skills,
+                            projects, and contact information.
+                        </p>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>Student Task Manager</h3>
+                        <p>
+                            A simple project idea for helping students organize
+                            their daily academic tasks.
+                        </p>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>Weather Information App</h3>
+                        <p>
+                            A project concept for displaying weather information
+                            in a simple and user-friendly format.
+                        </p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <table border="1">
+                <caption>My Technical Skills and Learning Levels</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Skill / Tool</th>
+                        <th scope="col">Learning Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="40"
+                        placeholder="Enter your message"
+                        required
+                    ></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 . All rights reserved.</p>
+        <p>
+            <a href="#main-content">Back to top</a>
+        </p>
+    </footer>
+
+</body>
+</html>
